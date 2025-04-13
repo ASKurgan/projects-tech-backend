@@ -52,7 +52,7 @@ namespace FileService.IntegrationTests
         {
             builder.ConfigureTestServices(services =>
             {
-               // services.RemoveAll(sd => sd.ServiceType == typeof(AuthenticationHandler<>)); 
+             // services.RemoveAll(sd => sd.ServiceType == typeof(AuthenticationHandler<>)); // services.RemoveAll(typeof(AuthenticationHandler<>)); 
                 services.RemoveAll<IAuthorizationPolicyProvider>();
                 services.RemoveAll<IAuthorizationHandler>();
 
