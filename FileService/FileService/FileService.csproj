@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,9 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ASKTech.Core" Version="1.0.1" />
+    <PackageReference Include="ASKTech.Framework" Version="1.0.1" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.416.6" />
+    <PackageReference Include="MassTransit" Version="8.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.14" />
     <PackageReference Include="MyLibOne.MyLibraryOne" Version="1.0.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="SharedKernel" Version="1.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileService.Contracts\FileService.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
