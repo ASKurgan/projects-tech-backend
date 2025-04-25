@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	  <PackageId>FileService.Contracts</PackageId>
-	  <Version>1.0.0</Version>
+	  <Version>1.0.1</Version>
 	  <Authors>ASKurgan</Authors>
 	  <Company>ASKurgan</Company>
 	  <PackageDescription>
@@ -17,9 +17,8 @@
 
 
   <ItemGroup>
-    <PackageReference Include="ASKTech.Framework" Version="1.0.0" />
-    <PackageReference Include="MyLibOne.MyLibraryOne" Version="1.0.0" />
-    <PackageReference Include="SharedKernel" Version="1.0.0" />
+    <PackageReference Include="ASKTech.Framework" Version="1.0.1" />
+    <PackageReference Include="SharedKernel" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
