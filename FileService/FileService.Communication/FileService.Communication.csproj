@@ -4,7 +4,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <PackageId>FileService.Communication</PackageId>
+	  <Version>1.0.1</Version>
+	  <Authors>ASKurgan</Authors>
+	  <Company>ASKurgan</Company>
+	  <PackageDescription>
+		  FileService.Communication
+	  </PackageDescription>
+	  <RepositoryUrl>https://github.com/ASKurgan/projects-tech-backend</RepositoryUrl>
   </PropertyGroup>
+
+
 
   <ItemGroup>
     <PackageReference Include="ASKTech.Framework" Version="1.0.1" />
