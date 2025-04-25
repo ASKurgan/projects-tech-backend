@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Title>Issues.Contracts</Title>
+	  <Authors>ASKurgan</Authors>
+	  <Company>ASKurgan</Company>
+	  <Description>Issues contracts library</Description>
+	  <RepositoryUrl>https://github.com/ASKurgan/projects-tech-backend</RepositoryUrl>
+	  <PackageDescription>Issues contracts library</PackageDescription>
+	  <Version>1.0.1</Version>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="FileService.Contracts" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
